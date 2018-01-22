@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quotes</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_about">About us</string>
+    <string name="title_activity_favourite">favourite</string>
+</resources>

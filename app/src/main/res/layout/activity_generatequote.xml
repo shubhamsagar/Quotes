@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context="com.shubham.quotes.generatequote">
+
+    <com.zl.reik.dilatingdotsprogressbar.DilatingDotsProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:color="#41748b"
+        android:radius="8dp"
+        app:dd_animationDuration="500"
+        app:dd_horizontalSpacing="4dp"
+        app:dd_numDots="4"
+        app:dd_scaleMultiplier="2.0" />
+
+
+
+    <Button
+        android:id="@+id/quote"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round"
+        android:fontFamily="@font/dancingscriptbold"
+        android:text="Generate Quote"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="295dp"
+        android:layout_height="360dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textviewround"
+        android:fontFamily="@font/dancingscriptbold"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textIsSelectable="true"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>
