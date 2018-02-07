@@ -46,14 +46,6 @@ public class MyAdapter  extends RecyclerView.Adapter<MyAdapter.ViewHolder>
         holder.quote.setText(listItem.getQuote());
         holder.author.setText(listItem.getAuthor());
         holder.category.setText(listItem.getCategory());
-       /* holder.linearLayout.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-
-            }
-        });*/
     }
 
     @Override
